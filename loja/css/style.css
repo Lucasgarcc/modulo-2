@@ -1,53 +1,57 @@
 
-			body {
-				background-color: rgb(247, 244, 235);
-				margin: 0;
-				padding: 0;
-				font-family: Arial, Helvetica, sans-serif;
-				font-size: 16px;
-			}
+body {
+	background-color: rgb(247, 244, 235);
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
 			
-			.logo {
-				width: 100px;
+.logo {
+	width: 100px;
 
-			 }
-			img {
-				width: 82%;
-				height: 90px;
-			}
-			.image {
-				margin-top: 15px;
-				margin-bottom: -20px;
-				width: 60px;
-				height: 90px;
-			}
-			h2 {
-				padding-top: 5px;
-				font-size: 16px;
-			 	text-align: center;	
-			}
+}
 
-            h1 h3 {
-                font-weight: bolder;
-                box-shadow: rgb(255, 255, 255) 0px 6px px;
-            }
+img {
+	width: 82%;
+	height: 90px;
+}
 
-            .titulo {
-                background-color: rgb(224, 172, 103);
-                text-align: center;
-                padding: 30px;
-                color: #504d4d ;
-                font-size: 24px;
-                box-shadow: #fff 0 0 4px 4px;
-            }
-		.navbar {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: right;
-			align-items: center;
-         	overflow: hidden;
-          	background-color: #fd780b;
-        }
+.image {
+	margin-top: 15px;
+	margin-bottom: -20px;
+	width: 60px;
+	height: 90px;
+}
+
+h2 {
+	padding-top: 5px;
+	font-size: 16px;
+	text-align: center;	
+}
+
+h1 h3 {
+        font-weight: bolder;
+        box-shadow: rgb(255, 255, 255) 0px 6px px;
+}
+
+.titulo {       
+	background-color: rgb(224, 172, 103);
+        text-align: center;
+        padding: 30px;
+        color: #504d4d ;
+        font-size: 24px;
+         box-shadow: #fff 0 0 4px 4px;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+	align-items: center;
+        overflow: hidden;
+         background-color: #fd780b;
+}
         
         .navbar a {
           float: left;
@@ -58,7 +62,13 @@
           padding: 14px 16px;
           text-decoration: none;
        }
-         
+
+.navbar a.active {
+	display: block;
+	background-color: wheat;
+	border-radius: 6px;
+}
+
         .dropdown {
           float: left;
           overflow: hidden;
